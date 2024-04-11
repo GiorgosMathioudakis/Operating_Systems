@@ -1,1 +1,1 @@
-HY345 Course 
+HY345 Course - Operating Systems.
