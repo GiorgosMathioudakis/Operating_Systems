@@ -18,7 +18,7 @@ The guide in steps :
 
 The implementation that I would do written in C.
 
-In sched.c at pick_next_task we add the following code. If the following code does not return any tasks then we continue with the default code of pick_next_task.
+Inside sched.c at pick_next_task we will add the following code. If it does not return any tasks , then we continue with the default code of that file.
 
 void update_time_slices_for_group(struct group_info *group, float time_slice) {
     // Traverse each process in the group and update its time slice
